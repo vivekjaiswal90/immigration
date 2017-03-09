@@ -1,0 +1,626 @@
+@charset "utf-8";
+.body {
+	background-color:#f5f5f5;
+	margin: 0px 0px 28px 0px;
+	padding: 0;
+	font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+x* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+img {
+	border: none;
+}
+input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: normal;
+	color: #2e2e2e;
+	text-decoration: none;
+	background-color: #e8d9d9;
+	border: 1px solid #f6f6f6;
+}
+textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: normal;
+	color: #2e2e2e;
+	text-decoration: none;
+	background-color: #e8d9d9;
+	border: 1px solid #f6f6f6;
+}
+select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: normal;
+	color: #2e2e2e;
+	text-decoration: none;
+	background-color: #e8d9d9;
+	border: 1px solid #f6f6f6;
+}
+.textbox1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #2e2e2e;
+	text-decoration: none;
+	background-color: #e8d9d9;
+	border: 1px solid #f6f6f6;
+}
+.textbox2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color:#535252;
+	background-image:url(../images/textboxback.gif);
+	background-position:left top;
+	xbackground-color:#ffffff;
+	border:none;
+	padding:2px 0px 0px 2px;
+	width:385px;
+	height:29px;
+}
+.textbox3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color:#ffffff;
+	xbackground-image:url(../images/textboxback.gif);
+	xbackground-position:left top;
+	background-color:#885d6b;
+	border: 1px solid #f6f6f6;
+	height:25px;
+	padding:2px 0px 0px 2px;
+	width:386px;
+	height:22px;
+}
+.smalltext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover.smalltext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ff0052;
+	text-decoration: none;
+}
+.smalltextred {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #942348;
+	text-decoration: none;
+}
+a:hover.smalltextred {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ff0052;
+	text-decoration: none;
+}
+#nav {
+	list-style-type:none;
+	text-decoration:none;
+	margin:2px 0px 0px -27px;
+}
+#nav li {
+	float:left;
+	padding:10px 5px 10px 0px;
+}
+
+#nav li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#b51146;
+	text-decoration:none;
+	vertical-align:middle;
+	padding:16px 8px 16px 8px;
+	text-shadow:1px 1px #ffffff;
+}
+#nav li a:hover{
+	background-image:url(../images/navhover.gif);
+	background-repeat:repeat-x;
+	vertical-align:middle;
+	color:#FFFFFF;
+	text-shadow:1px 1px #000000;
+}
+.current{
+	background-image:url(../images/navhover.gif);
+	background-repeat:repeat-x;
+	text-shadow:1px 1px #000000;
+}
+.navhead1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#fffefe;
+	text-decoration:none;
+	padding:15px 0px 15px 20px;
+}
+.navhead2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:15px 0px 15px 10px;
+}
+#sidenav {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration:none;
+	xheight:22px;
+	background-color:#d6aab9;
+	padding:5px 0px 5px 20px;
+	margin:1px 0px 0px 0px;
+}
+#sidenav:hover {
+	color: #ffffff;
+	text-decoration:none;
+	background-color:#850e37;
+	cursor:pointer;
+}
+.smalltext2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #942348;
+	text-shadow:#FFFFFF 1px 1px;
+	text-decoration: none;
+}
+a:hover.smalltext2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ff0052;	
+	text-shadow:#FFFFFF 1px 1px;
+	text-decoration:underline;
+}
+.smalltext3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #C93301;
+	text-decoration: none;
+}
+a:hover.smalltext3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.smalltext4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #828282;
+	text-decoration: none;
+}
+a:hover.smalltext4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration:underline;
+}
+.footertext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #942348;
+	text-decoration: none;
+}
+.footertext2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #828282;
+	text-decoration: none;
+}
+.footerback {
+	background-image:url(../images/footerbackline.gif);
+	background-repeat:repeat-x;
+}
+.arialred11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color:#ff504e;
+	text-decoration: none;
+}
+.welcome {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color:#ff006c;
+	text-decoration: none;
+}
+.usertext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color:#ffffff;
+	text-decoration: none;
+}
+.innertoptextarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #a6a6a6;
+	text-decoration:none;
+	background-color:#FFFFFF;
+	border: 1px #e1e1e1 solid;
+	font-style: italic;
+	padding:10px 20px 10px 20px;
+}
+.line {
+	background-image: url(../images/line.gif);
+	background-repeat: repeat-x;
+}
+.topevent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	color: #22a2dd;
+	text-decoration: none;
+	line-height:25px;
+}
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	color: #545454;
+	text-decoration: none;
+	line-height:25px;
+}
+a:hover.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	color: #22a2dd;
+	text-decoration: none;
+	line-height:25px;
+}
+.eventtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #828282;
+	text-decoration: none;
+	line-height:19px;
+}
+.eventtext2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #da5700;
+	text-decoration: none;
+}
+a:hover.eventtext2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.comment {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:center;
+}
+.addevent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:center;
+	padding:3px;
+	background-color:#666666;
+}
+a:hover.addevent {
+	color: #333333;
+	background-color:#cccccc;
+}
+.pagination {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	padding:0px 0px 0px 10px;
+}
+.paginationcurrent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:center;
+	background-image:url(../images/pagination_back1.gif);
+	background-repeat:no-repeat;
+	height:28px;
+	width:29px;
+	vertical-align:top;
+	padding-top:5px;
+}
+#pagination {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align:center;
+	padding:10px 5px 10px 5px;
+	float:left;
+}
+#pagination a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align:center;
+	background-image:url(../images/pagination_back2.gif);
+	background-repeat:no-repeat;
+	padding:6px 11px 10px 11px;
+}
+#pagination a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:center;
+	background-image:url(../images/pagination_back1.gif);
+	background-repeat:no-repeat;
+	padding:6px 11px 10px 11px;
+}
+.scroll{
+	xfloat:left;
+	margin:0px auto 0px auto;
+	width:970px;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ff9a9a;
+}
+.loginbutton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: #f6f0d5;
+	text-align:center;
+	background-color:#ffffff;
+	background-image:url(../images/save.png);
+	background-repeat:no-repeat;
+	border:none;
+	cursor:pointer;
+	width:131px;
+	height:34px;
+}
+.loginbutton2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform:uppercase;
+	background-color:#999999;
+	color: #ffffff;
+	text-align:center;
+	border:1px #000000 solid;
+	cursor:pointer;
+	padding:0px 2px 0px 2px;
+	xwidth:40px;
+	height:28px;
+}
+.formtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+h1 {
+	font-size: 1.2em;
+	padding: 5px 10px;
+	color: #ccc;
+	width: 940px;
+	margin: 0 auto;
+}
+h1 a {	color: #fff; }
+h1 span {font-weight: normal;}
+#footpanel {
+	position: fixed;
+	bottom: 0; left: 0;
+	z-index: 9999; /*--Keeps the panel on top of all other elements--*/
+	background: #e3e2e2;
+	border: 1px solid #c3c3c3;
+	border-bottom: none;
+	width: 94%;
+	margin: 0 3%;
+}
+*html #footpanel { /*--IE6 Hack - Fixed Positioning to the Bottom--*/
+	margin-top: -1px; /*--prevents IE6 from having an infinity scroll bar - due to 1px border on #footpanel--*/
+	position: absolute;
+	top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+}
+#footpanel ul {
+	padding: 0; margin: 0;
+	float: left;
+	width: 100%;
+	list-style: none;
+	border-top: 1px solid #fff; /*--Gives the bevel feel on the panel--*/
+	font-size: 1.1em;
+}
+#footpanel ul li{
+	padding: 0; margin: 0;
+	float: left;
+	position: relative;
+}
+#footpanel ul li a{
+	padding: 5px;
+	float: left;
+	text-indent: -9999px;
+	height: 16px; width: 16px;
+	text-decoration: none;
+	color: #333;
+	position: relative;
+}
+html #footpanel ul li a:hover{	background-color: #fff; }
+html #footpanel ul li a.active { /*--Active state when subpanel is open--*/
+	background-color: #fff;
+	height: 17px;
+	margin-top: -2px; /*--Push it up 2px to attach the active button to subpanel--*/
+	border: 1px solid #555;
+	border-top: none;
+	z-index: 200; /*--Keeps the active area on top of the subpanel--*/
+	position: relative;
+}
+#footpanel a.home{	
+	background: url(../images/home.png) no-repeat 15px center;
+	width: 50px;
+	padding-left: 40px;
+	border-right: 1px solid #bbb;
+	text-indent: 0; /*--Reset text indent--*/
+}
+a.profile{	background: url(../images/user.png) no-repeat center center;  }
+a.contacts{	background: url(../images/address_book.png) no-repeat center center; }
+a.playlist{	background: url(../images/document_music_playlist.png) no-repeat center center; }
+a.videos{	background: url(../images/film.png) no-repeat center center; }
+a.messages{	background: url(../images/mail.png) no-repeat center center; }
+a.editprofile{	background: url(../images/searchicon.png) no-repeat center center; }
+#footpanel a.chat{	
+	background: url(../images/balloon.png) no-repeat 15px center;
+	width: 126px;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	padding-left: 40px;
+	text-indent: 0; /*--Reset text indent--*/
+}
+a.alerts{	background: url(../images/newspaper.png) no-repeat center center;	 }
+#footpanel li#chatpanel, #footpanel li#alertpanel {	float: right; }  /*--Right align the chat and alert panels--*/
+#footpanel a small {  /*--panel tool tip styles--*/
+	text-align: center;
+	width: 70px;
+	background: url(../images/pop_arrow.gif) no-repeat center bottom;
+	padding: 5px 5px 11px;
+	display: none; /*--Hide by default--*/
+	color: #fff;
+	font-size: 1em;
+	text-indent: 0;
+}
+#footpanel a:hover small{
+	display: block; /*--Show on hover--*/
+	position: absolute;
+	top: -35px; /*--Position tooltip 35px above the list item--*/
+	left: 50%; 
+	margin-left: -40px; /*--Center the tooltip--*/
+	z-index: 9999;
+}
+#footpanel ul li div a { /*--Reset link style for subpanel links--*/
+	text-indent: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+	float: none;
+	color: #00629a;
+	position: static;
+}
+#footpanel ul li div a:hover {	text-decoration: underline; } /*--Reset link style for subpanel links--*/
+#footpanel .subpanel {
+	position: absolute;
+	left: 0; bottom: 27px;
+	display: none;	/*--Hide by default--*/
+	width: 198px;
+	border: 1px solid #555;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 2px;
+}
+#footpanel h3 {
+	background: #526ea6;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+#footpanel h3 span { 
+	font-size: 1.5em;
+	float: right;
+	line-height: 0.6em;	
+	font-weight: normal;
+}
+#footpanel .subpanel ul{
+	padding: 0; margin: 0;
+	background: #fff;
+	width: 100%;
+	overflow: auto;
+}
+#footpanel .subpanel li{ 
+	float: none; /*--Reset float--*/
+	display: block;
+	padding: 0; margin: 0;
+	overflow: hidden;
+	clear: both;
+	background: #fff;
+	position: static;  /*--Reset relative positioning--*/
+	font-size: 0.9em;
+}
+#chatpanel .subpanel li { background: url(../images/dash.gif) repeat-x left center; } 
+#chatpanel .subpanel li span {
+	padding: 5px;
+	background: #fff;
+	color: #777;
+	float: left;
+}
+#chatpanel .subpanel li a img {
+	float: left;
+	margin: 0 5px;
+}
+#chatpanel .subpanel li a{
+	padding: 3px 0;	margin: 0;
+	line-height: 22px;
+	height: 22px;
+	background: #fff;
+	display: block;
+}
+#chatpanel .subpanel li a:hover {
+	background: #3b5998;
+	color: #fff;
+	text-decoration: none;
+}
+#alertpanel .subpanel { right: 0; left: auto; /*--Reset left positioning and make it right positioned--*/ }
+#alertpanel .subpanel li {
+	border-top: 1px solid #f0f0f0;
+	display: block;
+}
+#alertpanel .subpanel li p {padding: 5px 10px;}
+#alertpanel .subpanel li a.delete{
+	background: url(../images/delete_x.gif) no-repeat;
+	float: right;
+	width: 13px; height: 14px;
+	margin: 5px;
+	text-indent: -9999px;
+	visibility: hidden; /*--Hides by default but still takes up space (not completely gone like display:none;)--*/
+}
+#alertpanel .subpanel li a.delete:hover { background-position: left bottom; }
+#footpanel #alertpanel li.view {
+	text-align: right;
+	padding: 5px 10px 5px 0;
+}

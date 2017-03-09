@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.heading_main {
+	padding:3px 5px 3px 5px;
+	font-family:'Trebuchet MS';
+	font-size:20px;
+	color:#980000;
+	font-weight:bold;
+}
+.heading_sub {
+	padding:3px 5px 3px 5px;
+	font-family:'Trebuchet MS';
+	font-size:15px;
+	color:#0043b1;
+	font-weight:bold;
+}
+.line {
+	height:20px;
+	width:100%;
+	background: url(images/line.gif) repeat-x center left;
+}
+img {
+	margin:0;
+	padding:0;
+	border: none;
+}
+body {
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+	font-family:"Trebuchet MS";
+	font-weight:normal;
+	text-align: left;
+	font-size: 12px;
+	color:#414141;
+	background: #eae9e7 url(images/body-back.gif) repeat-x top left;
+}
+input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border:1px #999999 solid;
+	background-color:#CCCCCC;
+}
+select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border:1px #999999 solid;
+	background-color:#CCCCCC;
+}
+.button {
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	font-weight:bold;
+	color:#0043b1;
+	border:2px #666666 solid;
+	background-color:#cccccc;
+	text-transform:uppercase;
+	padding:3px 10px 3px 10px;
+}
